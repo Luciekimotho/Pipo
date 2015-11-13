@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pipo</string>
+    <string name="title_activity_people">People</string>
+    <string name="view_people">View People</string>
+    <string name="random">This is just random text I wannna populate my text view with so that i see how it fits.</string>
+    <string name="name">Name:</string>
+</resources>
