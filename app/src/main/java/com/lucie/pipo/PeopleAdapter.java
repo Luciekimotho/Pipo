@@ -32,7 +32,13 @@ public class PeopleAdapter extends FirebaseRecyclerViewAdapter<PeopleDetails, Pe
 
 
     @Override
-    public void populateViewHolder(PeopleViewHolder peopleViewHolder, PeopleDetails peopleDetails) {
-
+    public void populateViewHolder(PeopleViewHolder peopleView, PeopleDetails myPeople) {
+        peopleView.id.setText(Integer.toString(myPeople.getid()));
+        peopleView.fname.setText(myPeople.getFirst_name());
+        peopleView.lname.setText(myPeople.getLast_name());
+        peopleView.email.setText(myPeople.getEmail());
+        peopleView.country.setText(myPeople.getCountry());
+        peopleView.companyname.setText(myPeople.getCompany_name());
+        peopleView.creditcard.setText(myPeople.getCredit_card());
     }
 }
