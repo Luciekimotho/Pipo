@@ -36,5 +36,6 @@ dependencies {
     compile 'com.android.support:recyclerview-v7:23.0.1-rc1'
     compile 'com.firebase:firebase-client-android:2.4.0+'
     compile 'com.firebaseui:firebase-ui:0.2.0'
-
+    compile 'com.parse.bolts:bolts-android:1.+'
 }
+

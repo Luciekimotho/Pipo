@@ -1,15 +1,7 @@
 package com.lucie.pipo;
 
-import android.support.v7.widget.RecyclerView;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.TextView;
-
 import com.firebase.client.Query;
 import com.firebase.ui.FirebaseRecyclerViewAdapter;
-
-import java.util.List;
 
 /**
  * Created by lucie on 11/12/15.
