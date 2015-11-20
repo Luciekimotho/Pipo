@@ -46,4 +46,8 @@ public class PeopleDetails {
     public String getCompany_name(){
         return company_name;
     }
+
+    public PeopleDetails(){
+
+    }
 }

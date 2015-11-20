@@ -32,7 +32,7 @@ public class People extends AppCompatActivity {
         Firebase myFbRef = new Firebase("https://mydatavisualize.firebaseio.com/");
 
 
-       /* myFbRef.addValueEventListener(new ValueEventListener() {
+        /*myFbRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
 
